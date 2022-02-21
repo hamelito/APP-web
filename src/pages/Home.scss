@@ -1,0 +1,12 @@
+.hero__imgi {
+  background-image: url("http://127.0.0.1:8000/media/cuisine.jpeg");
+  max-width: 1500px;
+  width: 100%;
+  height: 450px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__imgi {
+    height: 400px;
+  }
+}
